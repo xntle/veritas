@@ -1,0 +1,1171 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.51978481512411,
+          32.94495189674772
+        ]
+      },
+      "properties": {
+        "company": "Danone",
+        "status": "Delivered",
+        "description": "Danone shipment node",
+        "transaction_id": "danone_tx_001"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.05987379269432,
+          39.70990493309028
+        ]
+      },
+      "properties": {
+        "company": "P&G",
+        "status": "Checkpoint",
+        "description": "P&G shipment node",
+        "transaction_id": "p&g_tx_002"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.87230001663879,
+          47.908610494866245
+        ]
+      },
+      "properties": {
+        "company": "Dow",
+        "status": "In Transit",
+        "description": "Dow shipment node",
+        "transaction_id": "dow_tx_003"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.81836820222941,
+          34.366250976923006
+        ]
+      },
+      "properties": {
+        "company": "Nestl\u00e9",
+        "status": "Delivered",
+        "description": "Nestl\u00e9 shipment node",
+        "transaction_id": "nestl\u00e9_tx_004"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.01863456231253,
+          40.642183821526416
+        ]
+      },
+      "properties": {
+        "company": "Danone",
+        "status": "Planned",
+        "description": "Danone shipment node",
+        "transaction_id": "danone_tx_005"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.75049761083183,
+          33.78300125323506
+        ]
+      },
+      "properties": {
+        "company": "Coca-Cola",
+        "status": "Planned",
+        "description": "Coca-Cola shipment node",
+        "transaction_id": "coca-cola_tx_006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.48325864521323,
+          33.41049718006114
+        ]
+      },
+      "properties": {
+        "company": "Unilever",
+        "status": "Delivered",
+        "description": "Unilever shipment node",
+        "transaction_id": "unilever_tx_007"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.802151265488,
+          39.42079505880688
+        ]
+      },
+      "properties": {
+        "company": "Unilever",
+        "status": "Checkpoint",
+        "description": "Unilever shipment node",
+        "transaction_id": "unilever_tx_008"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.80889210530222,
+          35.26318221938598
+        ]
+      },
+      "properties": {
+        "company": "Chevron",
+        "status": "In Transit",
+        "description": "Chevron shipment node",
+        "transaction_id": "chevron_tx_009"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.9025699332922,
+          33.564516033398874
+        ]
+      },
+      "properties": {
+        "company": "Coca-Cola",
+        "status": "Checkpoint",
+        "description": "Coca-Cola shipment node",
+        "transaction_id": "coca-cola_tx_010"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.94566352872931,
+          41.506096562143284
+        ]
+      },
+      "properties": {
+        "company": "P&G",
+        "status": "In Transit",
+        "description": "P&G shipment node",
+        "transaction_id": "p&g_tx_011"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.68361672494994,
+          33.35357842171095
+        ]
+      },
+      "properties": {
+        "company": "Unilever",
+        "status": "Planned",
+        "description": "Unilever shipment node",
+        "transaction_id": "unilever_tx_012"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.23929695577662,
+          38.15774679842905
+        ]
+      },
+      "properties": {
+        "company": "Chevron",
+        "status": "Checkpoint",
+        "description": "Chevron shipment node",
+        "transaction_id": "chevron_tx_013"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.64451251289279,
+          33.90735193105193
+        ]
+      },
+      "properties": {
+        "company": "Tyson Foods",
+        "status": "Planned",
+        "description": "Tyson Foods shipment node",
+        "transaction_id": "tyson_foods_tx_014"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.89871802737484,
+          26.040428490033047
+        ]
+      },
+      "properties": {
+        "company": "Unilever",
+        "status": "Checkpoint",
+        "description": "Unilever shipment node",
+        "transaction_id": "unilever_tx_015"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.19310846317627,
+          33.29847519944386
+        ]
+      },
+      "properties": {
+        "company": "PepsiCo",
+        "status": "Delivered",
+        "description": "PepsiCo shipment node",
+        "transaction_id": "pepsico_tx_016"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.07291818485871,
+          33.41076361945871
+        ]
+      },
+      "properties": {
+        "company": "Unilever",
+        "status": "Delivered",
+        "description": "Unilever shipment node",
+        "transaction_id": "unilever_tx_017"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.78209953246638,
+          47.64264289241851
+        ]
+      },
+      "properties": {
+        "company": "Dow",
+        "status": "Checkpoint",
+        "description": "Dow shipment node",
+        "transaction_id": "dow_tx_018"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.13150764914886,
+          34.16817477768249
+        ]
+      },
+      "properties": {
+        "company": "P&G",
+        "status": "Planned",
+        "description": "P&G shipment node",
+        "transaction_id": "p&g_tx_019"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.06061456985206,
+          41.49140271855683
+        ]
+      },
+      "properties": {
+        "company": "PepsiCo",
+        "status": "In Transit",
+        "description": "PepsiCo shipment node",
+        "transaction_id": "pepsico_tx_020"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.96503098476722,
+          47.83272699513901
+        ]
+      },
+      "properties": {
+        "company": "General Mills",
+        "status": "Planned",
+        "description": "General Mills shipment node",
+        "transaction_id": "general_mills_tx_021"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.49561114732437,
+          41.860248935378344
+        ]
+      },
+      "properties": {
+        "company": "P&G",
+        "status": "Delivered",
+        "description": "P&G shipment node",
+        "transaction_id": "p&g_tx_022"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.07905675410552,
+          37.42948843466392
+        ]
+      },
+      "properties": {
+        "company": "Tyson Foods",
+        "status": "Planned",
+        "description": "Tyson Foods shipment node",
+        "transaction_id": "tyson_foods_tx_023"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.93810180965097,
+          41.57012861242979
+        ]
+      },
+      "properties": {
+        "company": "3M",
+        "status": "Checkpoint",
+        "description": "3M shipment node",
+        "transaction_id": "3m_tx_024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.91620683554304,
+          37.71001641828632
+        ]
+      },
+      "properties": {
+        "company": "Coca-Cola",
+        "status": "Planned",
+        "description": "Coca-Cola shipment node",
+        "transaction_id": "coca-cola_tx_025"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -80.1918,
+            25.7617
+          ],
+          [
+            -122.3321,
+            47.6062
+          ],
+          [
+            -84.388,
+            33.749
+          ],
+          [
+            -87.6298,
+            41.8781
+          ],
+          [
+            -122.4194,
+            37.7749
+          ]
+        ]
+      },
+      "properties": {
+        "company": "Michelin",
+        "route_id": "michelin_route_001",
+        "description": "Michelin logistics route",
+        "status": "Delayed"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -104.9903,
+            39.7392
+          ],
+          [
+            -84.388,
+            33.749
+          ],
+          [
+            -95.3698,
+            29.7604
+          ],
+          [
+            -96.797,
+            32.7767
+          ],
+          [
+            -74.006,
+            40.7128
+          ]
+        ]
+      },
+      "properties": {
+        "company": "Michelin",
+        "route_id": "michelin_route_002",
+        "description": "Michelin logistics route",
+        "status": "Pending"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.797,
+            32.7767
+          ],
+          [
+            -84.388,
+            33.749
+          ],
+          [
+            -122.4194,
+            37.7749
+          ],
+          [
+            -87.6298,
+            41.8781
+          ]
+        ]
+      },
+      "properties": {
+        "company": "Nestl\u00e9",
+        "route_id": "nestl\u00e9_route_003",
+        "description": "Nestl\u00e9 logistics route",
+        "status": "Pending"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.006,
+            40.7128
+          ],
+          [
+            -112.074,
+            33.4484
+          ],
+          [
+            -104.9903,
+            39.7392
+          ],
+          [
+            -118.2437,
+            34.0522
+          ],
+          [
+            -122.3321,
+            47.6062
+          ]
+        ]
+      },
+      "properties": {
+        "company": "Danone",
+        "route_id": "danone_route_004",
+        "description": "Danone logistics route",
+        "status": "On Schedule"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.797,
+            32.7767
+          ],
+          [
+            -80.1918,
+            25.7617
+          ],
+          [
+            -118.2437,
+            34.0522
+          ],
+          [
+            -84.388,
+            33.749
+          ],
+          [
+            -95.3698,
+            29.7604
+          ]
+        ]
+      },
+      "properties": {
+        "company": "Tyson Foods",
+        "route_id": "tyson_foods_route_005",
+        "description": "Tyson Foods logistics route",
+        "status": "Pending"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -112.074,
+            33.4484
+          ],
+          [
+            -122.3321,
+            47.6062
+          ],
+          [
+            -118.2437,
+            34.0522
+          ]
+        ]
+      },
+      "properties": {
+        "company": "PepsiCo",
+        "route_id": "pepsico_route_006",
+        "description": "PepsiCo logistics route",
+        "status": "On Schedule"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -112.074,
+            33.4484
+          ],
+          [
+            -96.797,
+            32.7767
+          ],
+          [
+            -80.1918,
+            25.7617
+          ],
+          [
+            -84.388,
+            33.749
+          ],
+          [
+            -122.3321,
+            47.6062
+          ]
+        ]
+      },
+      "properties": {
+        "company": "Michelin",
+        "route_id": "michelin_route_007",
+        "description": "Michelin logistics route",
+        "status": "Pending"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3321,
+            47.6062
+          ],
+          [
+            -84.388,
+            33.749
+          ],
+          [
+            -122.4194,
+            37.7749
+          ],
+          [
+            -90.0489,
+            35.1495
+          ]
+        ]
+      },
+      "properties": {
+        "company": "General Mills",
+        "route_id": "general_mills_route_008",
+        "description": "General Mills logistics route",
+        "status": "Pending"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -104.9903,
+            39.7392
+          ],
+          [
+            -87.6298,
+            41.8781
+          ],
+          [
+            -74.006,
+            40.7128
+          ],
+          [
+            -122.4194,
+            37.7749
+          ],
+          [
+            -80.1918,
+            25.7617
+          ]
+        ]
+      },
+      "properties": {
+        "company": "Tyson Foods",
+        "route_id": "tyson_foods_route_009",
+        "description": "Tyson Foods logistics route",
+        "status": "Delayed"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -95.3698,
+            29.7604
+          ],
+          [
+            -90.0489,
+            35.1495
+          ],
+          [
+            -122.4194,
+            37.7749
+          ],
+          [
+            -122.3321,
+            47.6062
+          ]
+        ]
+      },
+      "properties": {
+        "company": "PepsiCo",
+        "route_id": "pepsico_route_010",
+        "description": "PepsiCo logistics route",
+        "status": "On Schedule"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.797,
+            32.7767
+          ],
+          [
+            -87.6298,
+            41.8781
+          ],
+          [
+            -104.9903,
+            39.7392
+          ],
+          [
+            -90.0489,
+            35.1495
+          ]
+        ]
+      },
+      "properties": {
+        "company": "Dow",
+        "route_id": "dow_route_011",
+        "description": "Dow logistics route",
+        "status": "On Schedule"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.2437,
+            34.0522
+          ],
+          [
+            -84.388,
+            33.749
+          ],
+          [
+            -112.074,
+            33.4484
+          ],
+          [
+            -80.1918,
+            25.7617
+          ]
+        ]
+      },
+      "properties": {
+        "company": "P&G",
+        "route_id": "p&g_route_012",
+        "description": "P&G logistics route",
+        "status": "Delayed"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -104.9903,
+            39.7392
+          ],
+          [
+            -74.006,
+            40.7128
+          ],
+          [
+            -84.388,
+            33.749
+          ]
+        ]
+      },
+      "properties": {
+        "company": "Michelin",
+        "route_id": "michelin_route_013",
+        "description": "Michelin logistics route",
+        "status": "On Schedule"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -80.1918,
+            25.7617
+          ],
+          [
+            -122.3321,
+            47.6062
+          ],
+          [
+            -122.4194,
+            37.7749
+          ],
+          [
+            -74.006,
+            40.7128
+          ],
+          [
+            -90.0489,
+            35.1495
+          ]
+        ]
+      },
+      "properties": {
+        "company": "Chevron",
+        "route_id": "chevron_route_014",
+        "description": "Chevron logistics route",
+        "status": "On Schedule"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.4194,
+            37.7749
+          ],
+          [
+            -96.797,
+            32.7767
+          ],
+          [
+            -122.3321,
+            47.6062
+          ],
+          [
+            -112.074,
+            33.4484
+          ]
+        ]
+      },
+      "properties": {
+        "company": "Unilever",
+        "route_id": "unilever_route_015",
+        "description": "Unilever logistics route",
+        "status": "On Schedule"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.2437,
+            34.0522
+          ],
+          [
+            -122.4194,
+            37.7749
+          ],
+          [
+            -95.3698,
+            29.7604
+          ],
+          [
+            -90.0489,
+            35.1495
+          ]
+        ]
+      },
+      "properties": {
+        "company": "Chevron",
+        "route_id": "chevron_route_016",
+        "description": "Chevron logistics route",
+        "status": "On Schedule"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.2437,
+            34.0522
+          ],
+          [
+            -80.1918,
+            25.7617
+          ],
+          [
+            -122.3321,
+            47.6062
+          ],
+          [
+            -96.797,
+            32.7767
+          ]
+        ]
+      },
+      "properties": {
+        "company": "Chevron",
+        "route_id": "chevron_route_017",
+        "description": "Chevron logistics route",
+        "status": "Delayed"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -80.1918,
+            25.7617
+          ],
+          [
+            -118.2437,
+            34.0522
+          ],
+          [
+            -90.0489,
+            35.1495
+          ],
+          [
+            -84.388,
+            33.749
+          ],
+          [
+            -104.9903,
+            39.7392
+          ]
+        ]
+      },
+      "properties": {
+        "company": "Nestl\u00e9",
+        "route_id": "nestl\u00e9_route_018",
+        "description": "Nestl\u00e9 logistics route",
+        "status": "Delayed"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -80.1918,
+            25.7617
+          ],
+          [
+            -104.9903,
+            39.7392
+          ],
+          [
+            -112.074,
+            33.4484
+          ],
+          [
+            -118.2437,
+            34.0522
+          ],
+          [
+            -96.797,
+            32.7767
+          ]
+        ]
+      },
+      "properties": {
+        "company": "Unilever",
+        "route_id": "unilever_route_019",
+        "description": "Unilever logistics route",
+        "status": "Pending"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -104.9903,
+            39.7392
+          ],
+          [
+            -90.0489,
+            35.1495
+          ],
+          [
+            -80.1918,
+            25.7617
+          ]
+        ]
+      },
+      "properties": {
+        "company": "Unilever",
+        "route_id": "unilever_route_020",
+        "description": "Unilever logistics route",
+        "status": "Delayed"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -87.6298,
+            41.8781
+          ],
+          [
+            -90.0489,
+            35.1495
+          ],
+          [
+            -84.388,
+            33.749
+          ]
+        ]
+      },
+      "properties": {
+        "company": "Nestl\u00e9",
+        "route_id": "nestl\u00e9_route_021",
+        "description": "Nestl\u00e9 logistics route",
+        "status": "On Schedule"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -112.074,
+            33.4484
+          ],
+          [
+            -84.388,
+            33.749
+          ],
+          [
+            -95.3698,
+            29.7604
+          ],
+          [
+            -96.797,
+            32.7767
+          ]
+        ]
+      },
+      "properties": {
+        "company": "P&G",
+        "route_id": "p&g_route_022",
+        "description": "P&G logistics route",
+        "status": "Delayed"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.797,
+            32.7767
+          ],
+          [
+            -87.6298,
+            41.8781
+          ],
+          [
+            -112.074,
+            33.4484
+          ]
+        ]
+      },
+      "properties": {
+        "company": "Coca-Cola",
+        "route_id": "coca-cola_route_023",
+        "description": "Coca-Cola logistics route",
+        "status": "On Schedule"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3321,
+            47.6062
+          ],
+          [
+            -80.1918,
+            25.7617
+          ],
+          [
+            -90.0489,
+            35.1495
+          ],
+          [
+            -95.3698,
+            29.7604
+          ],
+          [
+            -104.9903,
+            39.7392
+          ]
+        ]
+      },
+      "properties": {
+        "company": "PepsiCo",
+        "route_id": "pepsico_route_024",
+        "description": "PepsiCo logistics route",
+        "status": "Delayed"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3321,
+            47.6062
+          ],
+          [
+            -96.797,
+            32.7767
+          ],
+          [
+            -87.6298,
+            41.8781
+          ]
+        ]
+      },
+      "properties": {
+        "company": "Tyson Foods",
+        "route_id": "tyson_foods_route_025",
+        "description": "Tyson Foods logistics route",
+        "status": "On Schedule"
+      }
+    }
+  ]
+}

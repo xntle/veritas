@@ -60,24 +60,6 @@ export default function About() {
               immutable records to ensure compliance.
             </p>
           </div>
-
-          <div>
-            <h2 className="text-xl font-semibold mb-1">Real ROI & ESG Value</h2>
-            <ul className="list-disc pl-6 space-y-1">
-              <li>
-                3M’s $10.3B PFAS settlement underscores the cost of
-                non-compliance.
-              </li>
-              <li>
-                Blockchain tracking reduces fines, streamlines ops, and improves
-                brand trust.
-              </li>
-              <li>
-                Boost ESG scores and gain favorable insurance or investment
-                terms.
-              </li>
-            </ul>
-          </div>
         </section>
 
         <div className="flex flex-col sm:flex-row gap-4 mt-6">

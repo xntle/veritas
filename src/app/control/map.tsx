@@ -81,9 +81,7 @@ export default function MapPanel() {
     map.addImage("pulsing-dot", pulsingDot, { pixelRatio: 2 });
 
     map.on("load", async () => {
-      const response = await fetch(
-        "/stretched_transaction_points_final.geojson"
-      );
+      const response = await fetch("/pg_shipments_10.geojson");
       const geojson: FeatureCollection = await response.json();
 
       map.addSource("transaction-points", {
@@ -105,9 +103,16 @@ export default function MapPanel() {
         },
       });
 
-      const coordinates = geojson.features.map(
-        (feature: any) => feature.geometry.coordinates
+      const pointFeatures = geojson.features.filter(
+        (f: any) => f.geometry.type === "Point"
       );
+
+      // Optional: sort by transaction_id to ensure line order
+      pointFeatures.sort((a: any, b: any) =>
+        a.properties.transaction_id.localeCompare(b.properties.transaction_id)
+      );
+
+      const coordinates = pointFeatures.map((f: any) => f.geometry.coordinates);
 
       // Add source for line
       map.addSource("transaction-line", {
@@ -170,7 +175,7 @@ export default function MapPanel() {
   }, []);
 
   return (
-    <div className="relative w-full h-[46vh]">
+    <div className="relative w-full h-[85vh]">
       {/* Bottom-left Veritas brand */}
       <div className="flex flex-row items-center absolute bottom-6 left-6 z-50">
         <Image

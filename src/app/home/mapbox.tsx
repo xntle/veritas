@@ -16,6 +16,7 @@ export default function VeritasMap() {
     description: string;
     transaction_id: string;
   } | null>(null);
+
   const pulsingDot = {
     width: 100,
     height: 100,
@@ -38,13 +39,11 @@ export default function VeritasMap() {
 
       context.clearRect(0, 0, this.width, this.height);
 
-      // Outer ring
       context.beginPath();
       context.arc(center, center, outerRadius, 0, Math.PI * 2);
       context.fillStyle = `rgba(255, 51, 51, ${1 - t})`;
       context.fill();
 
-      // Inner circle
       context.beginPath();
       context.arc(center, center, radius, 0, Math.PI * 2);
       context.fillStyle = "rgba(255, 51, 51, 1)";
@@ -71,6 +70,7 @@ export default function VeritasMap() {
       projection: "globe",
       attributionControl: false,
     });
+    let dashOffset = 0;
 
     map.addControl(
       new mapboxgl.AttributionControl({ compact: true }),
@@ -81,9 +81,7 @@ export default function VeritasMap() {
     map.addImage("pulsing-dot", pulsingDot, { pixelRatio: 2 });
 
     map.on("load", async () => {
-      const response = await fetch(
-        "/stretched_transaction_points_final.geojson"
-      );
+      const response = await fetch("/eco_transfer_partners_50.geojson");
       const geojson: FeatureCollection = await response.json();
 
       map.addSource("transaction-points", {
@@ -91,50 +89,44 @@ export default function VeritasMap() {
         data: geojson,
       });
 
+      // 🔴 Points layer
       map.addLayer({
         id: "transaction-point-layer",
         type: "circle",
         source: "transaction-points",
+        filter: ["==", "$type", "Point"],
         paint: {
-          "circle-radius": 10,
+          "circle-radius": 8,
           "circle-color": "#ff3333",
-          "circle-opacity": 0.5,
-        },
-        layout: {
-          visibility: "visible",
+          "circle-opacity": 0.6,
         },
       });
 
-      const coordinates = geojson.features.map(
-        (feature: any) => feature.geometry.coordinates
-      );
-
-      // Add source for line
-      map.addSource("transaction-line", {
-        type: "geojson",
-        data: {
-          type: "Feature",
-          geometry: {
-            type: "LineString",
-            coordinates,
-          },
-        },
-      });
-
-      // Add line layer
+      // 🔵 Line layer
       map.addLayer({
         id: "transaction-line-layer",
         type: "line",
-        source: "transaction-line",
+        source: "transaction-points",
+        filter: ["==", "$type", "LineString"],
         layout: {
           "line-join": "round",
           "line-cap": "round",
         },
         paint: {
-          "line-color": "#ff0000", // blue
-          "line-width": 3,
+          "line-color": "#3B82F6",
+          "line-width": 4,
           "line-opacity": 0.8,
         },
+      });
+
+      map.addLayer({
+        id: "pulsing-point-layer",
+        type: "symbol",
+        source: "transaction-points",
+        layout: {
+          "icon-image": "pulsing-dot",
+        },
+        filter: ["==", ["get", "status"], "In Transit"],
       });
 
       map.on("mouseenter", "transaction-point-layer", () => {
@@ -153,15 +145,6 @@ export default function VeritasMap() {
           feature.properties;
         setSelectedFeature({ company, status, description, transaction_id });
       });
-      map.addLayer({
-        id: "pulsing-point-layer",
-        type: "symbol",
-        source: "transaction-points",
-        layout: {
-          "icon-image": "pulsing-dot",
-        },
-        filter: ["==", ["get", "status"], "In Transit"], // 🔁 Optional: show only some
-      });
     });
 
     return () => {
@@ -170,8 +153,7 @@ export default function VeritasMap() {
   }, []);
 
   return (
-    <div className="relative w-full h-[85vh]">
-      {/* Bottom-left Veritas brand */}
+    <div className="relative w-full h-[85vh] rounded-lg border border-gray-200">
       <div className="flex flex-row items-center absolute bottom-6 left-6 z-50">
         <Image
           className="dark:invert"
@@ -186,13 +168,11 @@ export default function VeritasMap() {
         </span>
       </div>
 
-      {/* Map container */}
       <div
         ref={mapContainer}
-        className="absolute inset-0 z-0 rounded-xl overflow-hidden"
+        className="absolute inset-0 z-0 rounded-lg overflow-hidden"
       />
 
-      {/* Info card shown when point is selected */}
       {selectedFeature && (
         <div className="absolute top-6 left-6 z-50 max-w-sm w-full border border-gray-200 p-4 rounded-lg shadow-md bg-white dark:bg-black">
           <h3 className="text-lg font-semibold">{selectedFeature.company}</h3>

@@ -76,9 +76,9 @@ export default function QRScannerPanel() {
       )}
 
       {result && (
-        <p className="mt-4 text-sm text-gray-600 dark:text-gray-300 break-words">
-          ✅ Scanned: <span className="font-semibold">{result}</span>
-        </p>
+        <div className="mt-4 text-left max-h-64 overflow-auto p-2 bg-gray-100 rounded text-sm text-gray-800 dark:text-gray-200">
+          <pre>{JSON.stringify(JSON.parse(result), null, 2)}</pre>
+        </div>
       )}
     </div>
   );

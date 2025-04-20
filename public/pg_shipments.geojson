@@ -1,0 +1,87 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "transaction_id": "pg_tx001",
+        "company": "Procter & Gamble",
+        "status": "In Transit",
+        "description": "Shipment en route to distribution center",
+        "event_type": "in_transit",
+        "status_flag": "on_route",
+        "distance_from_expected_m": 240
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.512,
+          39.1031
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transaction_id": "pg_tx002",
+        "company": "Procter & Gamble",
+        "status": "Delivered",
+        "description": "Shipment arrived at retail warehouse",
+        "event_type": "arrival",
+        "status_flag": "on_route",
+        "distance_from_expected_m": 80
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2437,
+          34.0522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transaction_id": "pg_tx003",
+        "company": "Procter & Gamble",
+        "status": "Delayed",
+        "description": "Idle for over 2 hours, may indicate breakdown",
+        "event_type": "idle",
+        "status_flag": "idle",
+        "distance_from_expected_m": 1100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "Procter & Gamble",
+        "description": "Shipment route",
+        "type": "route"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.512,
+            39.1031
+          ],
+          [
+            -118.2437,
+            34.0522
+          ],
+          [
+            -95.3698,
+            29.7604
+          ]
+        ]
+      }
+    }
+  ]
+}

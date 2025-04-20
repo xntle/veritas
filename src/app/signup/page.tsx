@@ -5,13 +5,29 @@ import { useState } from "react";
 
 export default function SignupPage() {
   const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [message, setMessage] = useState("");
 
-  const handleSignup = (e: React.FormEvent) => {
+  const handleSignup = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle signup logic here
-    console.log({ name, email, password });
+
+    try {
+      const res = await fetch("/api/register", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          companyName: name,
+          password: password,
+        }),
+      });
+
+      const result = await res.json();
+      console.log("✅ Signup result:", result);
+      alert(result.message || "Signup successful!");
+    } catch (err) {
+      console.error("❌ Signup failed:", err);
+      alert("Failed to connect to the backend.");
+    }
   };
 
   return (
@@ -44,20 +60,6 @@ export default function SignupPage() {
           </div>
 
           <div>
-            <label htmlFor="email" className="block text-sm font-medium">
-              Company Email
-            </label>
-            <input
-              type="email"
-              id="email"
-              required
-              className="mt-1 w-full rounded-md border border-gray-300 bg-white px-3 py-2 text-sm outline-none focus:ring-2 focus:ring-[#2e759d]"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-            />
-          </div>
-
-          <div>
             <label htmlFor="password" className="block text-sm font-medium">
               Password
             </label>
@@ -77,6 +79,12 @@ export default function SignupPage() {
           >
             Sign Up
           </button>
+
+          {message && (
+            <p className="text-center mt-2 text-sm text-gray-600 dark:text-gray-400">
+              {message}
+            </p>
+          )}
         </form>
 
         <p className="text-center text-xs text-gray-600 dark:text-gray-400">

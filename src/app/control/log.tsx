@@ -14,7 +14,7 @@ export default function LogPanel() {
 
   useEffect(() => {
     const fetchLogs = async () => {
-      const res = await fetch("/stretched_transaction_points_final.geojson");
+      const res = await fetch("/pg_shipments_10.geojson");
       const geojson = await res.json();
       const entries = geojson.features.map((f: any) => ({
         transaction_id: f.properties.transaction_id,
@@ -30,7 +30,7 @@ export default function LogPanel() {
 
   return (
     <div className="bg-white dark:bg-neutral-900 rounded-xl border border-gray-200 dark:border-neutral-700 shadow-sm p-4">
-      <h2 className="text-xl font-bold mb-4">📜 Veritas Logbook</h2>
+      <h2 className="text-xl font-bold mb-4">Logbook</h2>
       <div className="space-y-3 max-h-[300px] overflow-y-scroll pr-2">
         {logs.map((entry, i) => (
           <div

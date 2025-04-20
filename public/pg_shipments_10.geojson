@@ -1,0 +1,218 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.512,
+          39.1031
+        ]
+      },
+      "properties": {
+        "company": "Procter & Gamble",
+        "transaction_id": "tx001",
+        "status": "Delivered",
+        "description": "Shipment successfully delivered"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0458,
+          42.3314
+        ]
+      },
+      "properties": {
+        "company": "Procter & Gamble",
+        "transaction_id": "tx002",
+        "status": "Delivered",
+        "description": "Shipment successfully delivered"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6298,
+          41.8781
+        ]
+      },
+      "properties": {
+        "company": "Procter & Gamble",
+        "transaction_id": "tx003",
+        "status": "Delivered",
+        "description": "Shipment successfully delivered"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.1918,
+          25.7617
+        ]
+      },
+      "properties": {
+        "company": "Procter & Gamble",
+        "transaction_id": "tx004",
+        "status": "Pending",
+        "description": "Shipment awaiting pickup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "company": "Procter & Gamble",
+        "transaction_id": "tx005",
+        "status": "Pending",
+        "description": "Shipment awaiting pickup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2437,
+          34.0522
+        ]
+      },
+      "properties": {
+        "company": "Procter & Gamble",
+        "transaction_id": "tx006",
+        "status": "In Transit",
+        "description": "Shipment moving toward destination"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4194,
+          37.7749
+        ]
+      },
+      "properties": {
+        "company": "Procter & Gamble",
+        "transaction_id": "tx007",
+        "status": "In Transit",
+        "description": "Shipment moving toward destination"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.1994,
+          38.627
+        ]
+      },
+      "properties": {
+        "company": "Procter & Gamble",
+        "transaction_id": "tx008",
+        "status": "Delivered",
+        "description": "Shipment successfully delivered"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.074,
+          33.4484
+        ]
+      },
+      "properties": {
+        "company": "Procter & Gamble",
+        "transaction_id": "tx009",
+        "status": "Pending",
+        "description": "Shipment awaiting pickup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9903,
+          39.7392
+        ]
+      },
+      "properties": {
+        "company": "Procter & Gamble",
+        "transaction_id": "tx010",
+        "status": "Delivered",
+        "description": "Shipment successfully delivered"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.512,
+            39.1031
+          ],
+          [
+            -83.0458,
+            42.3314
+          ],
+          [
+            -87.6298,
+            41.8781
+          ],
+          [
+            -80.1918,
+            25.7617
+          ],
+          [
+            -95.3698,
+            29.7604
+          ],
+          [
+            -118.2437,
+            34.0522
+          ],
+          [
+            -122.4194,
+            37.7749
+          ],
+          [
+            -90.1994,
+            38.627
+          ],
+          [
+            -112.074,
+            33.4484
+          ],
+          [
+            -104.9903,
+            39.7392
+          ]
+        ]
+      },
+      "properties": {
+        "route_id": "pg_route_001",
+        "company": "Procter & Gamble",
+        "status": "Active"
+      }
+    }
+  ]
+}

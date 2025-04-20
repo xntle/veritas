@@ -1,0 +1,67 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4194,
+          37.7749
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "status": "In Transit",
+        "description": "Departed from San Francisco facility",
+        "transaction_id": "eco_tx_001"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2437,
+          34.0522
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "status": "Delivered",
+        "description": "Arrived at Los Angeles disposal site",
+        "transaction_id": "eco_tx_002"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.4194,
+            37.7749
+          ],
+          [
+            -121.8947,
+            37.3394
+          ],
+          [
+            -120.9991,
+            36.9741
+          ],
+          [
+            -118.2437,
+            34.0522
+          ]
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "route_id": "eco_route_sf_la",
+        "description": "Route from SF to LA",
+        "status": "On Schedule"
+      }
+    }
+  ]
+}

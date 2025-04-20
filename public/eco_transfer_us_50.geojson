@@ -1,0 +1,1143 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.96894284390243,
+          35.52562811999644
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "status": "In Transit",
+        "description": "Generated US location #1",
+        "transaction_id": "eco_tx_001"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.66973851591489,
+          25.98511587889408
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "status": "Planned",
+        "description": "Generated US location #2",
+        "transaction_id": "eco_tx_002"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.33567684756525,
+          32.80587304763652
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "status": "In Transit",
+        "description": "Generated US location #3",
+        "transaction_id": "eco_tx_003"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.825399201886,
+          41.02836679430417
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "status": "Checkpoint",
+        "description": "Generated US location #4",
+        "transaction_id": "eco_tx_004"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.52947381711397,
+          42.32753565764028
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "status": "Planned",
+        "description": "Generated US location #5",
+        "transaction_id": "eco_tx_005"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.21047780677287,
+          33.912855594768594
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "status": "Planned",
+        "description": "Generated US location #6",
+        "transaction_id": "eco_tx_006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.22296743164883,
+          40.92884881271615
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "status": "Planned",
+        "description": "Generated US location #7",
+        "transaction_id": "eco_tx_007"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.5523783282655,
+          39.710256925633885
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "status": "Planned",
+        "description": "Generated US location #8",
+        "transaction_id": "eco_tx_008"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.21953489672046,
+          33.67615773756636
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "status": "Planned",
+        "description": "Generated US location #9",
+        "transaction_id": "eco_tx_009"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.13537004599111,
+          37.90634063227902
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "status": "Delivered",
+        "description": "Generated US location #10",
+        "transaction_id": "eco_tx_010"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.58930209149115,
+          29.804471761889513
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "status": "Checkpoint",
+        "description": "Generated US location #11",
+        "transaction_id": "eco_tx_011"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.69428394994296,
+          47.32325449240016
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "status": "Planned",
+        "description": "Generated US location #12",
+        "transaction_id": "eco_tx_012"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.6139516112298,
+          33.74466404003447
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "status": "In Transit",
+        "description": "Generated US location #13",
+        "transaction_id": "eco_tx_013"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.99186239560423,
+          33.32854299643242
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "status": "Checkpoint",
+        "description": "Generated US location #14",
+        "transaction_id": "eco_tx_014"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.38619692092612,
+          40.322832544183825
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "status": "Checkpoint",
+        "description": "Generated US location #15",
+        "transaction_id": "eco_tx_015"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.19845340159654,
+          41.55383811880021
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "status": "Checkpoint",
+        "description": "Generated US location #16",
+        "transaction_id": "eco_tx_016"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.47951986238017,
+          35.224205163898596
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "status": "Planned",
+        "description": "Generated US location #17",
+        "transaction_id": "eco_tx_017"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.4805107669404,
+          33.513112442386564
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "status": "Checkpoint",
+        "description": "Generated US location #18",
+        "transaction_id": "eco_tx_018"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.63535567481486,
+          29.888044334123432
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "status": "Delivered",
+        "description": "Generated US location #19",
+        "transaction_id": "eco_tx_019"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.74511885264411,
+          34.28260685254954
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "status": "Planned",
+        "description": "Generated US location #20",
+        "transaction_id": "eco_tx_020"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.91440305619706,
+          29.55194879742749
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "status": "Planned",
+        "description": "Generated US location #21",
+        "transaction_id": "eco_tx_021"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.85949333026392,
+          33.98259077217165
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "status": "Planned",
+        "description": "Generated US location #22",
+        "transaction_id": "eco_tx_022"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.57866596775888,
+          33.660862682662994
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "status": "In Transit",
+        "description": "Generated US location #23",
+        "transaction_id": "eco_tx_023"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9800144465695,
+          33.954462572285586
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "status": "Checkpoint",
+        "description": "Generated US location #24",
+        "transaction_id": "eco_tx_024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.62381332717287,
+          40.069591196854994
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "status": "Planned",
+        "description": "Generated US location #25",
+        "transaction_id": "eco_tx_025"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3321,
+            47.6062
+          ],
+          [
+            -84.388,
+            33.749
+          ],
+          [
+            -122.4194,
+            37.7749
+          ],
+          [
+            -104.9903,
+            39.7392
+          ]
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "route_id": "eco_route_001",
+        "description": "US Route #1",
+        "status": "On Schedule"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.006,
+            40.7128
+          ],
+          [
+            -87.6298,
+            41.8781
+          ],
+          [
+            -80.1918,
+            25.7617
+          ]
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "route_id": "eco_route_002",
+        "description": "US Route #2",
+        "status": "Delayed"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -80.1918,
+            25.7617
+          ],
+          [
+            -95.3698,
+            29.7604
+          ],
+          [
+            -96.797,
+            32.7767
+          ]
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "route_id": "eco_route_003",
+        "description": "US Route #3",
+        "status": "Delayed"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -87.6298,
+            41.8781
+          ],
+          [
+            -80.1918,
+            25.7617
+          ],
+          [
+            -74.006,
+            40.7128
+          ],
+          [
+            -84.388,
+            33.749
+          ]
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "route_id": "eco_route_004",
+        "description": "US Route #4",
+        "status": "Delayed"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3321,
+            47.6062
+          ],
+          [
+            -87.6298,
+            41.8781
+          ],
+          [
+            -80.1918,
+            25.7617
+          ],
+          [
+            -118.2437,
+            34.0522
+          ],
+          [
+            -122.4194,
+            37.7749
+          ]
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "route_id": "eco_route_005",
+        "description": "US Route #5",
+        "status": "On Schedule"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.0489,
+            35.1495
+          ],
+          [
+            -104.9903,
+            39.7392
+          ],
+          [
+            -122.3321,
+            47.6062
+          ],
+          [
+            -80.1918,
+            25.7617
+          ],
+          [
+            -95.3698,
+            29.7604
+          ]
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "route_id": "eco_route_006",
+        "description": "US Route #6",
+        "status": "On Schedule"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3321,
+            47.6062
+          ],
+          [
+            -122.4194,
+            37.7749
+          ],
+          [
+            -90.0489,
+            35.1495
+          ]
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "route_id": "eco_route_007",
+        "description": "US Route #7",
+        "status": "Delayed"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -80.1918,
+            25.7617
+          ],
+          [
+            -90.0489,
+            35.1495
+          ],
+          [
+            -104.9903,
+            39.7392
+          ],
+          [
+            -112.074,
+            33.4484
+          ]
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "route_id": "eco_route_008",
+        "description": "US Route #8",
+        "status": "Delayed"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -80.1918,
+            25.7617
+          ],
+          [
+            -104.9903,
+            39.7392
+          ],
+          [
+            -90.0489,
+            35.1495
+          ],
+          [
+            -87.6298,
+            41.8781
+          ]
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "route_id": "eco_route_009",
+        "description": "US Route #9",
+        "status": "Pending"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.2437,
+            34.0522
+          ],
+          [
+            -104.9903,
+            39.7392
+          ],
+          [
+            -74.006,
+            40.7128
+          ],
+          [
+            -122.4194,
+            37.7749
+          ]
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "route_id": "eco_route_010",
+        "description": "US Route #10",
+        "status": "Delayed"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.4194,
+            37.7749
+          ],
+          [
+            -90.0489,
+            35.1495
+          ],
+          [
+            -122.3321,
+            47.6062
+          ]
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "route_id": "eco_route_011",
+        "description": "US Route #11",
+        "status": "On Schedule"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.4194,
+            37.7749
+          ],
+          [
+            -112.074,
+            33.4484
+          ],
+          [
+            -96.797,
+            32.7767
+          ]
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "route_id": "eco_route_012",
+        "description": "US Route #12",
+        "status": "Pending"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.797,
+            32.7767
+          ],
+          [
+            -112.074,
+            33.4484
+          ],
+          [
+            -90.0489,
+            35.1495
+          ],
+          [
+            -74.006,
+            40.7128
+          ]
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "route_id": "eco_route_013",
+        "description": "US Route #13",
+        "status": "Pending"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -87.6298,
+            41.8781
+          ],
+          [
+            -112.074,
+            33.4484
+          ],
+          [
+            -84.388,
+            33.749
+          ],
+          [
+            -74.006,
+            40.7128
+          ]
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "route_id": "eco_route_014",
+        "description": "US Route #14",
+        "status": "On Schedule"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -80.1918,
+            25.7617
+          ],
+          [
+            -104.9903,
+            39.7392
+          ],
+          [
+            -95.3698,
+            29.7604
+          ],
+          [
+            -112.074,
+            33.4484
+          ]
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "route_id": "eco_route_015",
+        "description": "US Route #15",
+        "status": "On Schedule"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -87.6298,
+            41.8781
+          ],
+          [
+            -118.2437,
+            34.0522
+          ],
+          [
+            -90.0489,
+            35.1495
+          ],
+          [
+            -95.3698,
+            29.7604
+          ],
+          [
+            -96.797,
+            32.7767
+          ]
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "route_id": "eco_route_016",
+        "description": "US Route #16",
+        "status": "On Schedule"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -95.3698,
+            29.7604
+          ],
+          [
+            -112.074,
+            33.4484
+          ],
+          [
+            -80.1918,
+            25.7617
+          ]
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "route_id": "eco_route_017",
+        "description": "US Route #17",
+        "status": "On Schedule"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.006,
+            40.7128
+          ],
+          [
+            -84.388,
+            33.749
+          ],
+          [
+            -96.797,
+            32.7767
+          ],
+          [
+            -122.3321,
+            47.6062
+          ],
+          [
+            -90.0489,
+            35.1495
+          ]
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "route_id": "eco_route_018",
+        "description": "US Route #18",
+        "status": "On Schedule"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -95.3698,
+            29.7604
+          ],
+          [
+            -90.0489,
+            35.1495
+          ],
+          [
+            -122.3321,
+            47.6062
+          ],
+          [
+            -122.4194,
+            37.7749
+          ]
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "route_id": "eco_route_019",
+        "description": "US Route #19",
+        "status": "Pending"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.388,
+            33.749
+          ],
+          [
+            -74.006,
+            40.7128
+          ],
+          [
+            -118.2437,
+            34.0522
+          ],
+          [
+            -95.3698,
+            29.7604
+          ],
+          [
+            -112.074,
+            33.4484
+          ]
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "route_id": "eco_route_020",
+        "description": "US Route #20",
+        "status": "Pending"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.006,
+            40.7128
+          ],
+          [
+            -118.2437,
+            34.0522
+          ],
+          [
+            -96.797,
+            32.7767
+          ],
+          [
+            -122.3321,
+            47.6062
+          ],
+          [
+            -112.074,
+            33.4484
+          ]
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "route_id": "eco_route_021",
+        "description": "US Route #21",
+        "status": "Pending"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -112.074,
+            33.4484
+          ],
+          [
+            -74.006,
+            40.7128
+          ],
+          [
+            -122.3321,
+            47.6062
+          ],
+          [
+            -118.2437,
+            34.0522
+          ]
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "route_id": "eco_route_022",
+        "description": "US Route #22",
+        "status": "Pending"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.4194,
+            37.7749
+          ],
+          [
+            -84.388,
+            33.749
+          ],
+          [
+            -87.6298,
+            41.8781
+          ]
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "route_id": "eco_route_023",
+        "description": "US Route #23",
+        "status": "Delayed"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.0489,
+            35.1495
+          ],
+          [
+            -118.2437,
+            34.0522
+          ],
+          [
+            -84.388,
+            33.749
+          ]
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "route_id": "eco_route_024",
+        "description": "US Route #24",
+        "status": "Delayed"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -104.9903,
+            39.7392
+          ],
+          [
+            -87.6298,
+            41.8781
+          ],
+          [
+            -74.006,
+            40.7128
+          ]
+        ]
+      },
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "route_id": "eco_route_025",
+        "description": "US Route #25",
+        "status": "On Schedule"
+      }
+    }
+  ]
+}
