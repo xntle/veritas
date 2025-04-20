@@ -210,7 +210,7 @@ export default function Home() {
             <h2 className="text-md font-bold mb-2">🧠 Live AI Insight</h2>
             {!insight ? (
               <p className="text-gray-500 dark:text-gray-400 text-sm">
-                Fetching AI analysis...
+                You're doing good, nothing to worry here
               </p>
             ) : (
               <div>

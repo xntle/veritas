@@ -33,7 +33,7 @@ export default function Home() {
   } | null>(null);
 
   const [logs, setLogs] = useState<LogEntry[]>([]);
-  const [insight, setInsight] = useState<AiInsight | null>(null);
+  const [insightText, setInsightText] = useState<string | null>(null);
 
   const pulsingDot = {
     width: 100,
@@ -78,17 +78,42 @@ export default function Home() {
       const data = await res.json();
       setLogs(data);
     };
-
     const fetchAiInsight = async () => {
-      const response = await fetch("/new_geo.geojson");
-      const geojson = await response.json();
-      const cerebrasResponse = await fetch("/cerebras", {
-        method: "POST",
-        body: JSON.stringify(geojson.features),
-        headers: { "Content-Type": "application/json" },
-      });
-      const aiResult = await cerebrasResponse.json();
-      setInsight(aiResult);
+      try {
+        const logRes = await fetch("/api/logs");
+        if (!logRes.ok) {
+          const errorText = await logRes.text();
+          console.error("Backend error:", logRes.status, errorText);
+          throw new Error("Failed to fetch log data");
+        }
+
+        const geojson = await logRes.json(); // ✅ FIXED: only call .json() here
+        const features = geojson.features;
+
+        const response = await fetch("/api/cerebras", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(features),
+        });
+
+        if (!response.ok || !response.body) {
+          throw new Error("AI analysis failed or no body");
+        }
+
+        const reader = response.body.getReader();
+        const decoder = new TextDecoder("utf-8");
+        let result = "";
+
+        while (true) {
+          const { done, value } = await reader.read();
+          if (done) break;
+          result += decoder.decode(value, { stream: true });
+        }
+
+        setInsightText(result); // ✅ stores full streamed text
+      } catch (err) {
+        console.error("Failed to fetch AI insight:", err);
+      }
     };
 
     fetchLogs();
@@ -227,26 +252,14 @@ export default function Home() {
         <div className="flex flex-col justify-between">
           <div className="bg-white dark:bg-neutral-900 text-black dark:text-white rounded-xl shadow-sm p-6 flex flex-col items-center justify-center text-center border border-gray-200 dark:border-neutral-700 h-full">
             <h3 className="text-xl font-semibold mb-2">Live AI Analysis</h3>
-            {!insight ? (
+            {!insightText ? (
               <p className="text-sm text-gray-500 dark:text-gray-400">
                 Analyzing current geolocation data...
               </p>
             ) : (
-              <div className="text-sm mt-2">
-                <p className="text-lg font-semibold mb-1">{insight.company}</p>
-                <p
-                  className={`mb-2 ${
-                    insight.colorCode === "red"
-                      ? "text-red-500"
-                      : "text-green-600"
-                  }`}
-                >
-                  {insight.description}
-                </p>
-                <p className="text-xs text-gray-500 italic">
-                  {insight.explanation}
-                </p>
-              </div>
+              <pre className="text-sm whitespace-pre-wrap text-left text-gray-700 dark:text-gray-300 mt-2">
+                {insightText}
+              </pre>
             )}
           </div>
           <div className="mt-4 flex justify-end gap-4">
