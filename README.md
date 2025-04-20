@@ -1,6 +1,6 @@
-# ♻️ Blockchain-Powered Hazardous Waste Tracking System
+# Veritas
 
-## 🌍 Problem Statement
+## Problem Statement
 
 From PFAS “forever chemicals” contaminating the water of over **158 million Americans**, to **199 million tons of plastic** choking our oceans, hazardous materials are flowing through our ecosystems unchecked. 
 
@@ -11,7 +11,7 @@ How do we build a future where **waste is verifiably tracked**, not hidden?
 
 ---
 
-## ⚠️ The Problem
+## The Problem
 
 - **158M+ Americans** exposed to PFAS-contaminated water  
 - **199M tons of plastic** in our oceans  
@@ -21,27 +21,27 @@ How do we build a future where **waste is verifiably tracked**, not hidden?
 
 ---
 
-## 🌟 Our Vision
+## Our Vision
 
 A world where hazardous waste is:
-- 🔍 **Transparently tracked**  
-- 🔗 **Publicly verifiable**  
-- ✅ **Responsibly managed by design**
+- **Transparently tracked**  
+- **Publicly verifiable**  
+- **Responsibly managed by design**
 
 ---
 
-## ✅ The Solution
+## The Solution
 
 **A blockchain-powered hazardous waste tracking system**, offering:
 
-- 📚 **Public ledger** for verified waste handling  
-- 🤖 **Smart contracts** for automated compliance  
-- ⚠️ **Real-time alerts** for contamination risks  
-- 📊 **ESG dashboards** for public trust & investor transparency
+- **Public ledger** for verified waste handling  
+- **Smart contracts** for automated compliance  
+- **Real-time alerts** for contamination risks  
+- **ESG dashboards** for public trust & investor transparency
 
 ---
 
-## 🛠 How It Works
+## How It Works
 
 1. Waste data is **logged on-chain** at every step — generation, transport, disposal  
 2. A **public dashboard** displays verified, non-sensitive metrics  
@@ -50,11 +50,11 @@ A world where hazardous waste is:
 
 ---
 
-## ❌ What’s Wrong with Current Solutions?
+## What’s Wrong with Current Solutions?
 
 1. **Paper-Based & Siloed Systems**  
    Slow, hard to verify, and easy to falsify.  
-   > 🧾 “Cradle-to-grave” tracking sounds good — until someone loses the cradle or the grave.
+   > “Cradle-to-grave” tracking sounds good — until someone loses the cradle or the grave.
 
 2. **Easily Manipulated Records**  
    Forged data allows "off-the-books" dumping and poor accountability.
@@ -73,7 +73,7 @@ A world where hazardous waste is:
 
 ---
 
-## 🏢 Benefits for Companies
+## Benefits for Companies
 
 1. **Lower Legal & Cleanup Risk**  
    Avoid fines, lawsuits, and billion-dollar settlements (e.g. 3M’s $10.3B PFAS case).  
@@ -99,7 +99,7 @@ A world where hazardous waste is:
 
 ---
 
-## 🧍 Benefits for the Public
+##  Benefits for the Public
 
 1. **Safer Water & Air**  
    Prevents illegal dumping near homes and waterways.
@@ -123,16 +123,16 @@ A world where hazardous waste is:
 
 ## 📈 Market Opportunity
 
-- 🌊 **$16B+ global cost of water pollution** annually  
-- 🧪 **30+ U.S. states pursuing PFAS litigation**  
-- 📈 **Rising demand** for ESG-compliant environmental technologies  
-- 🏭 A massive gap in the U.S. industrial waste tracking infrastructure — ready to be filled
+- **$16B+ global cost of water pollution** annually  
+- **30+ U.S. states pursuing PFAS litigation**  
+- **Rising demand** for ESG-compliant environmental technologies  
+- A massive gap in the U.S. industrial waste tracking infrastructure — ready to be filled
 
 ---
 
 Let’s stop hiding waste. Let’s start tracking it — transparently, publicly, and responsibly.
 
-> 🔐 A cleaner future begins with traceable accountability.
+>  A cleaner future begins with traceable accountability.
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
