@@ -6,7 +6,7 @@ import Dashboard from "./dashboard";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white dark:bg-black text-black dark:text-white font-[family-name:var(--font-geist-sans)] p-6 sm:p-12">
+    <div className="min-h-screen bg-white dark:bg-black text-black dark:text-white  p-6 sm:p-12">
       {/* Interactive Map */}
       <section className="mb-4">
         <VeritasMap />

@@ -2,16 +2,43 @@
 
 import { useEffect, useState } from "react";
 import Image from "next/image";
-
+import Link from "next/link";
 interface LogEntry {
   transaction_id: string;
   company: string;
   status: string;
   description: string;
 }
+interface AiInsight {
+  colorCode: "red" | "green";
+  company: string;
+  description: string;
+  explanation?: string;
+}
 
 export default function Dashboard() {
   const [logs, setLogs] = useState<LogEntry[]>([]);
+
+  const [insight, setInsight] = useState<AiInsight | null>(null);
+
+  useEffect(() => {
+    const fetchAiInsight = async () => {
+      const response = await fetch("/new_geo.geojson");
+      const geojson = await response.json();
+
+      const cerebrasResponse = await fetch("/cerebras", {
+        method: "POST",
+        body: JSON.stringify(geojson.features),
+        headers: { "Content-Type": "application/json" },
+      });
+
+      const aiResult = await cerebrasResponse.json();
+      console.log(aiResult);
+      setInsight(aiResult);
+    };
+
+    fetchAiInsight();
+  }, []);
 
   useEffect(() => {
     const fetchLogs = async () => {
@@ -67,24 +94,28 @@ export default function Dashboard() {
       {/* Scoreboard + CTA */}
       <div className="flex flex-col justify-between w-full">
         <div className="bg-white dark:bg-neutral-900 text-black dark:text-white rounded-xl shadow-sm p-6 flex flex-col items-center justify-center h-full text-center border border-gray-200 dark:border-neutral-700">
-          <h3 className="text-xl font-semibold mb-2">
-            Transparency Scoreboard
-          </h3>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
-            Real-time accountability rankings
-          </p>
-        </div>
-
-        <div className="mt-6 flex justify-between items-center">
-          <button className="bg-black text-white dark:bg-white dark:text-black px-6 py-3 text-sm rounded-full flex items-center gap-2 border border-black dark:border-white hover:bg-gray-100 dark:hover:bg-neutral-900 transition">
-            <Image
-              src="/veritas.svg"
-              alt="Veritas logo"
-              width={20}
-              height={20}
-            />
-            Join the Movement
-          </button>
+          <h3 className="text-xl font-semibold mb-2">Live AI Analysis</h3>
+          {!insight ? (
+            <p className="text-sm text-gray-500 dark:text-gray-400">
+              Analyzing current geolocation data...
+            </p>
+          ) : (
+            <div className="text-sm mt-2">
+              <p className="text-lg font-semibold mb-1">{insight.company}</p>
+              <p
+                className={`mb-2 ${
+                  insight.colorCode === "red"
+                    ? "text-red-500"
+                    : "text-green-600"
+                }`}
+              >
+                {insight.description}
+              </p>
+              <p className="text-xs text-gray-500 italic">
+                {insight.explanation}
+              </p>
+            </div>
+          )}
         </div>
       </div>
     </div>

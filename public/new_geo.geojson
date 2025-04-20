@@ -1,0 +1,40 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "EcoWaste Management Inc.",
+        "status": "in_transit",
+        "description": "Transporting sealed hazardous waste drums",
+        "transaction_id": "eco_tx_001",
+        "shipment_id": "waste_456789",
+        "company_id": "eco_mgmt_101",
+        "vehicle_id": "truck_301A",
+        "driver_id": "driver_812",
+        "timestamp": "2025-04-19T14:32:00Z",
+        "geo_accuracy_m": 4.5,
+        "speed_kph": 55.2,
+        "heading_deg": 110,
+        "event_type": "in_transit",
+        "checkpoint_id": "checkpoint_01",
+        "expected_location": {
+          "lat": 38.58,
+          "lon": -121.49
+        },
+        "distance_from_expected_m": 300,
+        "trip_id": "trip_eco_123",
+        "route_id": "route_CA_SAC02",
+        "status_flag": "on_route",
+        "notes": "Stable route, on schedule"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.4944,
+          38.5816
+        ]
+      }
+    }
+  ]
+}

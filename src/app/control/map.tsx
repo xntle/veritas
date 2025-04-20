@@ -7,7 +7,7 @@ import Image from "next/image";
 
 mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_TOKEN || "";
 
-export default function VeritasMap() {
+export default function MapPanel() {
   const mapContainer = useRef<HTMLDivElement | null>(null);
   const mapInstance = useRef<Map | null>(null);
   const [selectedFeature, setSelectedFeature] = useState<{
@@ -170,7 +170,7 @@ export default function VeritasMap() {
   }, []);
 
   return (
-    <div className="relative w-full h-[85vh]">
+    <div className="relative w-full h-[46vh]">
       {/* Bottom-left Veritas brand */}
       <div className="flex flex-row items-center absolute bottom-6 left-6 z-50">
         <Image

@@ -9,9 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@cerebras/cerebras_cloud_sdk": "^1.29.0",
     "@tabler/icons-react": "^3.31.0",
     "clsx": "^2.1.1",
     "cobe": "^0.6.3",
+    "html5-qrcode": "^2.3.8",
     "lucide-react": "^0.501.0",
     "mapbox-gl": "^3.11.0",
     "motion": "^12.7.4",

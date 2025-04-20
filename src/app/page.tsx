@@ -50,7 +50,7 @@ export default function Home() {
           />
           About
         </a>
-        <a className="flex items-center gap-2 hover:underline" href="/features">
+        <a className="flex items-center gap-2 hover:underline" href="/how">
           <Image
             aria-hidden
             src="/window.svg"

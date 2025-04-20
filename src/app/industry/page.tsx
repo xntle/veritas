@@ -3,7 +3,7 @@ import Carousel from "../../components/carousel";
 
 export default function Industry() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 sm:p-16 font-[family-name:var(--font-geist-sans)] bg-white text-black dark:bg-black dark:text-white">
+    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 sm:p-16  bg-white text-black dark:bg-black dark:text-white">
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start text-center sm:text-left max-w-2xl">
         <Image
           className="dark:invert"
