@@ -1,0 +1,605 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Seattle Site #1",
+        "status": "Awaiting Processing",
+        "description": "181lb container processed at Seattle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.61589421531818,
+          47.5883531993122
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Seattle Site #2",
+        "status": "Awaiting Processing",
+        "description": "101lb container processed at Seattle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.96223577869127,
+          47.29527424912014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Portland Site #1",
+        "status": "In Transit",
+        "description": "474lb container processed at Portland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.63134228806413,
+          45.71076416969173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Portland Site #2",
+        "status": "In Transit",
+        "description": "430lb container processed at Portland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.26262210118452,
+          45.97040945418463
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Francisco Site #1",
+        "status": "Awaiting Processing",
+        "description": "200lb container processed at San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2310507993221,
+          37.64348312789127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Francisco Site #2",
+        "status": "Awaiting Processing",
+        "description": "378lb container processed at San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40751013661419,
+          37.33528406366131
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Los Angeles Site #1",
+        "status": "In Transit",
+        "description": "347lb container processed at Los Angeles"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.02831691271926,
+          34.04994003207555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Los Angeles Site #2",
+        "status": "Delivered",
+        "description": "113lb container processed at Los Angeles"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.15905132503185,
+          33.83162047922818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Diego Site #1",
+        "status": "Awaiting Processing",
+        "description": "351lb container processed at San Diego"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.91132991873974,
+          33.11077732950107
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Diego Site #2",
+        "status": "Awaiting Processing",
+        "description": "106lb container processed at San Diego"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.72738706348267,
+          32.34205723630313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Phoenix Site #1",
+        "status": "Awaiting Processing",
+        "description": "219lb container processed at Phoenix"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.14669168249186,
+          33.037522852454074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Phoenix Site #2",
+        "status": "Delivered",
+        "description": "401lb container processed at Phoenix"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.66468966156181,
+          33.395550680390514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Denver Site #1",
+        "status": "Delivered",
+        "description": "290lb container processed at Denver"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.03143417693732,
+          39.650949084041414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Denver Site #2",
+        "status": "Delivered",
+        "description": "395lb container processed at Denver"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.65312416800104,
+          39.55752389533425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dallas Site #1",
+        "status": "In Transit",
+        "description": "405lb container processed at Dallas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.83781778713242,
+          32.30036646509991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dallas Site #2",
+        "status": "Delivered",
+        "description": "287lb container processed at Dallas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.03395474529829,
+          33.19502073753551
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Austin Site #1",
+        "status": "Delivered",
+        "description": "196lb container processed at Austin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.44055913886059,
+          30.035231367267414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Austin Site #2",
+        "status": "Delivered",
+        "description": "287lb container processed at Austin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.10923054352477,
+          30.308077088545524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Houston Site #1",
+        "status": "In Transit",
+        "description": "327lb container processed at Houston"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3635982314357,
+          29.58341866220818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Houston Site #2",
+        "status": "Awaiting Processing",
+        "description": "233lb container processed at Houston"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.79505426340697,
+          30.07485479476377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chicago Site #1",
+        "status": "Delivered",
+        "description": "358lb container processed at Chicago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.39373377574537,
+          41.8691524355412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chicago Site #2",
+        "status": "In Transit",
+        "description": "361lb container processed at Chicago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.32057987360398,
+          42.14738013621739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Minneapolis Site #1",
+        "status": "In Transit",
+        "description": "107lb container processed at Minneapolis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.74121483337541,
+          45.21701179154472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Minneapolis Site #2",
+        "status": "Delivered",
+        "description": "480lb container processed at Minneapolis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.56553294640285,
+          44.705900207704566
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Atlanta Site #1",
+        "status": "Awaiting Processing",
+        "description": "444lb container processed at Atlanta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.33792325226214,
+          34.10583462914247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Atlanta Site #2",
+        "status": "Awaiting Processing",
+        "description": "394lb container processed at Atlanta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.08460388918898,
+          33.68362786608414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Miami Site #1",
+        "status": "Awaiting Processing",
+        "description": "209lb container processed at Miami"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.96082848749634,
+          26.214458976449713
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Miami Site #2",
+        "status": "Delivered",
+        "description": "157lb container processed at Miami"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.87824796047227,
+          26.028613357872427
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Orlando Site #1",
+        "status": "In Transit",
+        "description": "417lb container processed at Orlando"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.7851759699273,
+          28.666674220696564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Orlando Site #2",
+        "status": "Awaiting Processing",
+        "description": "485lb container processed at Orlando"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.25684651164221,
+          28.316245169835682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "New York Site #1",
+        "status": "Awaiting Processing",
+        "description": "391lb container processed at New York"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.22715782911007,
+          40.58172056184224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "New York Site #2",
+        "status": "Awaiting Processing",
+        "description": "362lb container processed at New York"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.76908391486725,
+          40.30268412943637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Boston Site #1",
+        "status": "Delivered",
+        "description": "119lb container processed at Boston"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.53336578835315,
+          42.71763912812934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Boston Site #2",
+        "status": "Awaiting Processing",
+        "description": "249lb container processed at Boston"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.29013553027573,
+          42.14661069715568
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Philadelphia Site #1",
+        "status": "In Transit",
+        "description": "247lb container processed at Philadelphia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.05251413831117,
+          40.27183692737559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Philadelphia Site #2",
+        "status": "Awaiting Processing",
+        "description": "466lb container processed at Philadelphia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.14331423041065,
+          39.57056299186136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Washington DC Site #1",
+        "status": "Awaiting Processing",
+        "description": "461lb container processed at Washington DC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.29214701454835,
+          39.0664713488294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Washington DC Site #2",
+        "status": "Awaiting Processing",
+        "description": "416lb container processed at Washington DC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.32140923055441,
+          39.389123257261396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Charlotte Site #1",
+        "status": "Awaiting Processing",
+        "description": "322lb container processed at Charlotte"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.3513644090014,
+          35.67002779859682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Charlotte Site #2",
+        "status": "Delivered",
+        "description": "323lb container processed at Charlotte"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0275328271291,
+          35.59602841242126
+        ]
+      }
+    }
+  ]
+}

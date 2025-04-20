@@ -1,54 +1,64 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import mapboxgl, { Map, NavigationControl } from "mapbox-gl";
-
-// Transaction data with info
-const transactionData = [
-  {
-    from: {
-      name: "Dow Chemical Plant",
-      coordinates: [-94.6405, 29.3702],
-    },
-    to: {
-      name: "CleanHarbors Logistics",
-      coordinates: [-95.3698, 29.7604],
-    },
-    status: "Delivered",
-    note: "300lb plastic barrel transported safely",
-  },
-  {
-    from: {
-      name: "CleanHarbors Logistics",
-      coordinates: [-95.3698, 29.7604],
-    },
-    to: {
-      name: "EPA Regional Lab",
-      coordinates: [-90.1994, 38.627],
-    },
-    status: "In Transit",
-    note: "Hazardous container en route to EPA Lab",
-  },
-  {
-    from: {
-      name: "EPA Regional Lab",
-      coordinates: [-90.1994, 38.627],
-    },
-    to: {
-      name: "Veolia Disposal Facility",
-      coordinates: [-88.9331, 40.6331],
-    },
-    status: "Awaiting Processing",
-    note: "Sludge awaiting chemical breakdown",
-  },
-];
+import type { FeatureCollection } from "geojson";
+import Image from "next/image";
 
 mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_TOKEN || "";
 
 export default function VeritasMap() {
   const mapContainer = useRef<HTMLDivElement | null>(null);
   const mapInstance = useRef<Map | null>(null);
-  const addedLayers = useRef<Set<string>>(new Set());
+  const [selectedFeature, setSelectedFeature] = useState<{
+    company: string;
+    status: string;
+    description: string;
+    transaction_id: string;
+  } | null>(null);
+  const pulsingDot = {
+    width: 100,
+    height: 100,
+    data: new Uint8Array(100 * 100 * 4),
+
+    onAdd: function () {
+      const canvas = document.createElement("canvas");
+      canvas.width = this.width;
+      canvas.height = this.height;
+      this.context = canvas.getContext("2d")!;
+    },
+
+    render: function () {
+      const context = this.context;
+      const t = (performance.now() % 1000) / 1000;
+
+      const radius = (this.width / 2) * 0.3;
+      const outerRadius = (this.width / 2) * 0.7 * t + radius;
+      const center = this.width / 2;
+
+      context.clearRect(0, 0, this.width, this.height);
+
+      // Outer ring
+      context.beginPath();
+      context.arc(center, center, outerRadius, 0, Math.PI * 2);
+      context.fillStyle = `rgba(255, 51, 51, ${1 - t})`;
+      context.fill();
+
+      // Inner circle
+      context.beginPath();
+      context.arc(center, center, radius, 0, Math.PI * 2);
+      context.fillStyle = "rgba(255, 51, 51, 1)";
+      context.strokeStyle = "white";
+      context.lineWidth = 2 + 2 * (1 - t);
+      context.fill();
+      context.stroke();
+
+      this.data = context.getImageData(0, 0, this.width, this.height).data;
+
+      mapInstance.current!.triggerRepaint();
+      return true;
+    },
+  };
 
   useEffect(() => {
     if (!mapContainer.current || mapInstance.current) return;
@@ -68,44 +78,17 @@ export default function VeritasMap() {
     );
     map.addControl(new NavigationControl(), "top-right");
     mapInstance.current = map;
+    map.addImage("pulsing-dot", pulsingDot, { pixelRatio: 2 });
 
-    map.on("load", () => {
-      const allFeatures = transactionData.flatMap(
-        ({ from, to, status, note }, index) => [
-          {
-            type: "Feature",
-            properties: {
-              name: from.name,
-              status,
-              description: `#${index + 1} - ${note} at ${from.name}`,
-            },
-            geometry: {
-              type: "Point",
-              coordinates: from.coordinates,
-            },
-          },
-          {
-            type: "Feature",
-            properties: {
-              name: to.name,
-              status,
-              description: `#${index + 1} - ${note} received at ${to.name}`,
-            },
-            geometry: {
-              type: "Point",
-              coordinates: to.coordinates,
-            },
-          },
-        ]
+    map.on("load", async () => {
+      const response = await fetch(
+        "/stretched_transaction_points_final.geojson"
       );
+      const geojson: FeatureCollection = await response.json();
 
-      // Add points as a single layer
       map.addSource("transaction-points", {
         type: "geojson",
-        data: {
-          type: "FeatureCollection",
-          features: allFeatures,
-        },
+        data: geojson,
       });
 
       map.addLayer({
@@ -113,15 +96,14 @@ export default function VeritasMap() {
         type: "circle",
         source: "transaction-points",
         paint: {
-          "circle-radius": 8,
-          "circle-color": "#2e759d",
-          "circle-stroke-width": 2,
-          "circle-stroke-color": "#ffffff",
+          "circle-radius": 10,
+          "circle-color": "#ff3333",
+          "circle-opacity": 0.5,
+        },
+        layout: {
+          visibility: "visible",
         },
       });
-
-      // Add popup on hover
-      let popup: mapboxgl.Popup | null = null;
 
       map.on("mouseenter", "transaction-point-layer", () => {
         map.getCanvas().style.cursor = "pointer";
@@ -129,60 +111,24 @@ export default function VeritasMap() {
 
       map.on("mouseleave", "transaction-point-layer", () => {
         map.getCanvas().style.cursor = "";
-        if (popup) popup.remove();
-        popup = null;
       });
 
-      map.on("mousemove", "transaction-point-layer", (e) => {
+      map.on("click", "transaction-point-layer", (e) => {
         const feature = e.features?.[0];
         if (!feature || !feature.properties) return;
 
-        const { name, description } = feature.properties;
-        const coordinates = (feature.geometry as any).coordinates;
-
-        if (popup) popup.remove();
-
-        popup = new mapboxgl.Popup({ closeButton: false })
-          .setLngLat(coordinates)
-          .setHTML(`<strong>${name}</strong><br/><span>${description}</span>`)
-          .addTo(map);
+        const { company, status, description, transaction_id } =
+          feature.properties;
+        setSelectedFeature({ company, status, description, transaction_id });
       });
-
-      // Add transaction lines
-      transactionData.forEach(({ from, to }, index) => {
-        const sourceId = `line-${index}`;
-        const lineId = `line-${index}-layer`;
-
-        if (!addedLayers.current.has(lineId)) {
-          map.addSource(sourceId, {
-            type: "geojson",
-            data: {
-              type: "Feature",
-              geometry: {
-                type: "LineString",
-                coordinates: [from.coordinates, to.coordinates],
-              },
-              properties: {},
-            },
-          });
-
-          map.addLayer({
-            id: lineId,
-            type: "line",
-            source: sourceId,
-            layout: {
-              "line-join": "round",
-              "line-cap": "round",
-            },
-            paint: {
-              "line-color": "#2e759d",
-              "line-width": 4,
-              "line-opacity": 0.8,
-            },
-          });
-
-          addedLayers.current.add(lineId);
-        }
+      map.addLayer({
+        id: "pulsing-point-layer",
+        type: "symbol",
+        source: "transaction-points",
+        layout: {
+          "icon-image": "pulsing-dot",
+        },
+        filter: ["==", ["get", "status"], "In Transit"], // 🔁 Optional: show only some
       });
     });
 
@@ -192,9 +138,43 @@ export default function VeritasMap() {
   }, []);
 
   return (
-    <div
-      ref={mapContainer}
-      className="w-full h-[90vh] rounded-lg border border-gray-200"
-    />
+    <div className="relative w-full h-[85vh]">
+      {/* Bottom-left Veritas brand */}
+      <div className="flex flex-row items-center absolute bottom-6 left-6 z-50">
+        <Image
+          className="dark:invert"
+          src="/veritas.svg"
+          alt="Veritas logo"
+          width={40}
+          height={40}
+          priority
+        />
+        <span className="ml-2 text-xl font-semibold tracking-tight">
+          Veritas
+        </span>
+      </div>
+
+      {/* Map container */}
+      <div
+        ref={mapContainer}
+        className="absolute inset-0 z-0 rounded-xl overflow-hidden"
+      />
+
+      {/* Info card shown when point is selected */}
+      {selectedFeature && (
+        <div className="absolute top-6 left-6 z-50 max-w-sm w-full border border-gray-200 p-4 rounded-lg shadow-md bg-white dark:bg-black">
+          <h3 className="text-lg font-semibold">{selectedFeature.company}</h3>
+          <p className="text-sm text-gray-700 dark:text-gray-300">
+            {selectedFeature.description}
+          </p>
+          <p className="text-xs mt-2 text-gray-500 italic">
+            Status: {selectedFeature.status}
+          </p>
+          <p className="text-xs mt-1 text-gray-500">
+            Transaction ID: {selectedFeature.transaction_id}
+          </p>
+        </div>
+      )}
+    </div>
   );
 }

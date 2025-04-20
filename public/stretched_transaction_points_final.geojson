@@ -1,0 +1,645 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "EcoBarrel Solutions",
+        "status": "Awaiting Processing",
+        "description": "Shipment delayed due to inspection",
+        "transaction_id": "tx000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.11348407016236,
+          35.10589942228905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "Dow Chemical Plant",
+        "status": "Delivered",
+        "description": "Plastic barrels transferred",
+        "transaction_id": "tx001"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.72326503260794,
+          35.16653414074607
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "CleanHarbors Logistics",
+        "status": "In Transit",
+        "description": "Hazardous material moved",
+        "transaction_id": "tx002"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.21394789210073,
+          35.03931923153403
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "EcoBarrel Solutions",
+        "status": "In Transit",
+        "description": "Sludge awaiting breakdown",
+        "transaction_id": "tx003"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.02772904333736,
+          31.853133626612173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "CleanHarbors Logistics",
+        "status": "Delayed",
+        "description": "Material successfully processed",
+        "transaction_id": "tx004"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.51028091858839,
+          35.939421026014514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "RegenX Facility",
+        "status": "Delivered",
+        "description": "Plastic barrels transferred",
+        "transaction_id": "tx005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.95710212002956,
+          30.468630923024005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "EPA Regional Lab",
+        "status": "Delayed",
+        "description": "Shipment delayed due to inspection",
+        "transaction_id": "tx006"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.0260853117139,
+          42.89550474512191
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "Dow Chemical Plant",
+        "status": "In Transit",
+        "description": "Shipment delayed due to inspection",
+        "transaction_id": "tx007"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.7069921193957,
+          36.22037626956559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "TransHazmat",
+        "status": "Awaiting Processing",
+        "description": "Shipment delayed due to inspection",
+        "transaction_id": "tx008"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.19156484824373,
+          29.032330675271396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "RegenX Facility",
+        "status": "Delayed",
+        "description": "Hazardous material moved",
+        "transaction_id": "tx009"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.38989365169068,
+          39.448872554002435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "Dow Chemical Plant",
+        "status": "Completed",
+        "description": "Material successfully processed",
+        "transaction_id": "tx010"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.6459820317165,
+          31.848468009014557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "Dow Chemical Plant",
+        "status": "Completed",
+        "description": "Shipment delayed due to inspection",
+        "transaction_id": "tx011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.72790380460542,
+          29.91436357214774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "EPA Regional Lab",
+        "status": "Delivered",
+        "description": "Material successfully processed",
+        "transaction_id": "tx012"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.9456021590343,
+          36.5427557437927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "Greenloop Systems",
+        "status": "Delivered",
+        "description": "Hazardous material moved",
+        "transaction_id": "tx013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.28350078038554,
+          30.201671978608804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "Greenloop Systems",
+        "status": "In Transit",
+        "description": "Material successfully processed",
+        "transaction_id": "tx014"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.16807745541821,
+          35.05663326977416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "EcoBarrel Solutions",
+        "status": "Completed",
+        "description": "Material successfully processed",
+        "transaction_id": "tx015"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.61236979335794,
+          37.91778730300162
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "Veolia Disposal Facility",
+        "status": "Awaiting Processing",
+        "description": "Hazardous material moved",
+        "transaction_id": "tx016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.30587484527146,
+          36.84174073297938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "WasteTech Inc.",
+        "status": "Delayed",
+        "description": "Sludge awaiting breakdown",
+        "transaction_id": "tx017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.38243435745088,
+          32.98421768797031
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "Dow Chemical Plant",
+        "status": "Delayed",
+        "description": "Material successfully processed",
+        "transaction_id": "tx018"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.28531425110353,
+          42.935274975582715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "CleanHarbors Logistics",
+        "status": "Completed",
+        "description": "Hazardous material moved",
+        "transaction_id": "tx019"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.0780710428981,
+          43.976816612816634
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "EnviroSafe Transport",
+        "status": "Delivered",
+        "description": "Hazardous material moved",
+        "transaction_id": "tx020"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.35086859267065,
+          36.58827041073148
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "RegenX Facility",
+        "status": "Awaiting Processing",
+        "description": "Material successfully processed",
+        "transaction_id": "tx021"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.84506335285536,
+          34.54290633108326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "RegenX Facility",
+        "status": "Delivered",
+        "description": "Material successfully processed",
+        "transaction_id": "tx022"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.85800113469716,
+          43.75779965377223
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "EPA Regional Lab",
+        "status": "Awaiting Processing",
+        "description": "Plastic barrels transferred",
+        "transaction_id": "tx023"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.73222570067846,
+          33.49068128299967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "EPA Regional Lab",
+        "status": "Awaiting Processing",
+        "description": "Sludge awaiting breakdown",
+        "transaction_id": "tx024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.15166632038003,
+          42.345690605085636
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "Veolia Disposal Facility",
+        "status": "Awaiting Processing",
+        "description": "Material successfully processed",
+        "transaction_id": "tx025"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.64775625722405,
+          38.07244740545336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "Dow Chemical Plant",
+        "status": "Delivered",
+        "description": "Shipment delayed due to inspection",
+        "transaction_id": "tx026"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.89327017841353,
+          36.32797778224065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "EnviroSafe Transport",
+        "status": "In Transit",
+        "description": "Sludge awaiting breakdown",
+        "transaction_id": "tx027"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.118264764019,
+          41.44022134058329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "EcoBarrel Solutions",
+        "status": "Completed",
+        "description": "Plastic barrels transferred",
+        "transaction_id": "tx028"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.163289762783,
+          31.423729644108292
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "EPA Regional Lab",
+        "status": "Completed",
+        "description": "Plastic barrels transferred",
+        "transaction_id": "tx029"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.09898121906721,
+          30.678108208840026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "EPA Regional Lab",
+        "status": "Delayed",
+        "description": "Hazardous material moved",
+        "transaction_id": "tx030"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.34980867020411,
+          41.51892529829025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "Dow Chemical Plant",
+        "status": "Awaiting Processing",
+        "description": "Hazardous material moved",
+        "transaction_id": "tx031"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.70696969345488,
+          29.627432872532868
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "EnviroSafe Transport",
+        "status": "Completed",
+        "description": "Shipment delayed due to inspection",
+        "transaction_id": "tx032"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.66133178728914,
+          39.231000324658645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "Veolia Disposal Facility",
+        "status": "In Transit",
+        "description": "Hazardous material moved",
+        "transaction_id": "tx033"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.01044777712922,
+          43.60755533955933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "EnviroSafe Transport",
+        "status": "Delayed",
+        "description": "Hazardous material moved",
+        "transaction_id": "tx034"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.50427276203622,
+          42.221243069949864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "CleanHarbors Logistics",
+        "status": "Delayed",
+        "description": "Plastic barrels transferred",
+        "transaction_id": "tx035"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.25250981729057,
+          33.002085643917084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "TransHazmat",
+        "status": "Awaiting Processing",
+        "description": "Sludge awaiting breakdown",
+        "transaction_id": "tx036"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.5513256490867,
+          41.878898770066726
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "Veolia Disposal Facility",
+        "status": "Delivered",
+        "description": "Hazardous material moved",
+        "transaction_id": "tx037"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.57353928273983,
+          41.30804571457343
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "CleanHarbors Logistics",
+        "status": "Awaiting Processing",
+        "description": "Sludge awaiting breakdown",
+        "transaction_id": "tx038"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.42793877953991,
+          34.97698967847175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "RegenX Facility",
+        "status": "Awaiting Processing",
+        "description": "Plastic barrels transferred",
+        "transaction_id": "tx039"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.00643231279878,
+          38.62222607911441
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,645 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "CleanHarbors Logistics",
+        "status": "Delivered",
+        "description": "Sludge awaiting breakdown",
+        "transaction_id": "tx000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.65324438589572,
+          29.790758570502877
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "CleanHarbors Logistics",
+        "status": "Processing",
+        "description": "Plastic barrels transferred",
+        "transaction_id": "tx001"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.28522462652882,
+          27.635653589635673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "CleanHarbors Logistics",
+        "status": "In Transit",
+        "description": "Hazardous waste en route",
+        "transaction_id": "tx002"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.83934135689913,
+          27.530719393677273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "Veolia Disposal Facility",
+        "status": "Processing",
+        "description": "Container received",
+        "transaction_id": "tx003"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.3867813387791,
+          38.785313677518175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "Dow Chemical Plant",
+        "status": "In Transit",
+        "description": "Container received",
+        "transaction_id": "tx004"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.79248450446025,
+          30.10958999623563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "ExxonMobil Disposal",
+        "status": "Delivered",
+        "description": "Plastic barrels transferred",
+        "transaction_id": "tx005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.60218098087988,
+          34.17958760969257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "ExxonMobil Disposal",
+        "status": "Processing",
+        "description": "Sludge awaiting breakdown",
+        "transaction_id": "tx006"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.7861518017686,
+          41.59463573387636
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "WM Hazard Solutions",
+        "status": "Delivered",
+        "description": "Container received",
+        "transaction_id": "tx007"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.63599405764626,
+          32.863565628141856
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "Norlite Incinerator",
+        "status": "Awaiting Processing",
+        "description": "Material undergoing incineration",
+        "transaction_id": "tx008"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.2313422923002,
+          28.39110297647482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "Veolia Disposal Facility",
+        "status": "Awaiting Processing",
+        "description": "Plastic barrels transferred",
+        "transaction_id": "tx009"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.34046836954559,
+          44.3296733351054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "Tesla Recycling Center",
+        "status": "Awaiting Processing",
+        "description": "Container received",
+        "transaction_id": "tx010"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.929466672068,
+          34.29664357940169
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "ExxonMobil Disposal",
+        "status": "Awaiting Processing",
+        "description": "Hazardous waste en route",
+        "transaction_id": "tx011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.8947447686692,
+          41.036406269171025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "CleanHarbors Logistics",
+        "status": "Processing",
+        "description": "Hazardous waste en route",
+        "transaction_id": "tx012"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.97580368910876,
+          31.896218503028525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "US Ecology",
+        "status": "Received",
+        "description": "Sludge awaiting breakdown",
+        "transaction_id": "tx013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.31429948090215,
+          39.799995197081856
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "WM Hazard Solutions",
+        "status": "In Transit",
+        "description": "Sludge awaiting breakdown",
+        "transaction_id": "tx014"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7144423943057,
+          42.5199982309249
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "Veolia Disposal Facility",
+        "status": "Delivered",
+        "description": "Sludge awaiting breakdown",
+        "transaction_id": "tx015"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.96505638933013,
+          28.323772104230944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "Norlite Incinerator",
+        "status": "Awaiting Processing",
+        "description": "Hazardous waste en route",
+        "transaction_id": "tx016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.33684004115361,
+          34.91263802121328
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "US Ecology",
+        "status": "In Transit",
+        "description": "Sludge awaiting breakdown",
+        "transaction_id": "tx017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.81109041423481,
+          41.89977964183213
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "WM Hazard Solutions",
+        "status": "Awaiting Processing",
+        "description": "Material undergoing incineration",
+        "transaction_id": "tx018"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.1469851811626,
+          38.67065849891313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "ExxonMobil Disposal",
+        "status": "In Transit",
+        "description": "Hazardous waste en route",
+        "transaction_id": "tx019"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.71421118970606,
+          28.818188243475877
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "Dow Chemical Plant",
+        "status": "Delivered",
+        "description": "Hazardous waste en route",
+        "transaction_id": "tx020"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.1766187489073,
+          42.84158728725928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "Tesla Recycling Center",
+        "status": "Processing",
+        "description": "Plastic barrels transferred",
+        "transaction_id": "tx021"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.456980649765,
+          38.917768567222566
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "US Ecology",
+        "status": "Processing",
+        "description": "Sludge awaiting breakdown",
+        "transaction_id": "tx022"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.86764867159145,
+          44.215594044689965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "Dow Chemical Plant",
+        "status": "Delivered",
+        "description": "Material undergoing incineration",
+        "transaction_id": "tx023"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.47366601225171,
+          42.37197465314892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "ExxonMobil Disposal",
+        "status": "Delivered",
+        "description": "Sludge awaiting breakdown",
+        "transaction_id": "tx024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.95704247992686,
+          36.07447412658413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "3M Waste Processing",
+        "status": "Processing",
+        "description": "Hazardous waste en route",
+        "transaction_id": "tx025"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.76954976187024,
+          29.1282164559541
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "3M Waste Processing",
+        "status": "Processing",
+        "description": "Material undergoing incineration",
+        "transaction_id": "tx026"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.032666947058,
+          34.47827705182296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "EPA Regional Lab",
+        "status": "Processing",
+        "description": "Material undergoing incineration",
+        "transaction_id": "tx027"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.44519516812893,
+          38.97889168920458
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "US Ecology",
+        "status": "Delivered",
+        "description": "Plastic barrels transferred",
+        "transaction_id": "tx028"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.12704151206148,
+          44.574437556463685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "3M Waste Processing",
+        "status": "In Transit",
+        "description": "Plastic barrels transferred",
+        "transaction_id": "tx029"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.773852226583,
+          38.3471388737782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "CleanHarbors Logistics",
+        "status": "Delivered",
+        "description": "Container received",
+        "transaction_id": "tx030"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.51930239739734,
+          46.55968987354669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "WM Hazard Solutions",
+        "status": "In Transit",
+        "description": "Hazardous waste en route",
+        "transaction_id": "tx031"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.20747531757898,
+          45.93697359409982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "EPA Regional Lab",
+        "status": "Awaiting Processing",
+        "description": "Material undergoing incineration",
+        "transaction_id": "tx032"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.82700876744228,
+          35.46275880401774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "Veolia Disposal Facility",
+        "status": "Processing",
+        "description": "Hazardous waste en route",
+        "transaction_id": "tx033"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.61153081542635,
+          34.97984599994858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "ExxonMobil Disposal",
+        "status": "Received",
+        "description": "Material undergoing incineration",
+        "transaction_id": "tx034"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.45541575826611,
+          31.95811227332016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "CleanHarbors Logistics",
+        "status": "Awaiting Processing",
+        "description": "Plastic barrels transferred",
+        "transaction_id": "tx035"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.350738446283,
+          31.60229465193154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "Veolia Disposal Facility",
+        "status": "Delivered",
+        "description": "Plastic barrels transferred",
+        "transaction_id": "tx036"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.76477160354638,
+          28.177475337526467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "CleanHarbors Logistics",
+        "status": "Delivered",
+        "description": "Sludge awaiting breakdown",
+        "transaction_id": "tx037"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.8742795033404,
+          31.760092687379903
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "US Ecology",
+        "status": "In Transit",
+        "description": "Material undergoing incineration",
+        "transaction_id": "tx038"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.03064453824925,
+          45.71028481161342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "Norlite Incinerator",
+        "status": "Processing",
+        "description": "Container received",
+        "transaction_id": "tx039"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.71008272812827,
+          36.45945885889188
+        ]
+      }
+    }
+  ]
+}

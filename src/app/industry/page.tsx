@@ -65,7 +65,7 @@ export default function Industry() {
           </div>
         </section>
 
-        <div className="flex flex-col sm:flex-row gap-4">
+        <div className="flex flex-col justify-center items-center sm:flex-row gap-4 mt-2 mb-2">
           <a
             className="rounded-full border border-transparent transition-colors flex items-center justify-center bg-black text-white dark:bg-white dark:text-black hover:opacity-90 font-medium text-sm sm:text-base h-12 px-6"
             href="/login"
@@ -74,9 +74,9 @@ export default function Industry() {
           </a>
           <a
             className="rounded-full border border-black dark:border-white transition-colors flex items-center justify-center hover:bg-gray-100 dark:hover:bg-gray-900 font-medium text-sm sm:text-base h-12 px-6"
-            href="/how"
+            href="/home"
           >
-            🔎 See How It Works
+            What map?
           </a>
         </div>
       </main>

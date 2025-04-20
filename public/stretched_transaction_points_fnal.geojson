@@ -1,0 +1,133 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "Dow Chemical Plant",
+        "status": "Delivered",
+        "description": "Plastic barrels transferred",
+        "transaction_id": "tx001"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.64,
+          29.37
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "CleanHarbors Logistics",
+        "status": "In Transit",
+        "description": "Chemical waste in sealed containers",
+        "transaction_id": "tx002"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36,
+          29.76
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "EPA Regional Lab",
+        "status": "Processing",
+        "description": "Analyzing sample contents",
+        "transaction_id": "tx003"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.19,
+          38.62
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "Veolia Disposal",
+        "status": "Awaiting Processing",
+        "description": "Sludge awaiting chemical breakdown",
+        "transaction_id": "tx004"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.93,
+          40.63
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "EnviroGuard South",
+        "status": "Delivered",
+        "description": "Battery waste dropped off",
+        "transaction_id": "tx005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.39,
+          33.75
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "GreenFlow North",
+        "status": "In Transit",
+        "description": "Hazardous dyes in sealed drums",
+        "transaction_id": "tx006"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.62,
+          41.88
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "EcoDisposal",
+        "status": "Stored",
+        "description": "Temporary storage - paper byproducts",
+        "transaction_id": "tx007"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41,
+          37.77
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "company": "Pacific Cleanup Corp",
+        "status": "Delivered",
+        "description": "Medical waste processed",
+        "transaction_id": "tx008"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.24,
+          34.05
+        ]
+      }
+    }
+  ]
+}
